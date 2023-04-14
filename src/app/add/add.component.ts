@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-add',
@@ -7,4 +8,23 @@ import { Component } from '@angular/core';
 })
 export class AddComponent {
 
+  constructor(){
+
+    
+  }
+
+
+  HotelForm = new FormGroup({
+    name: new FormControl(""),
+    address: new FormControl(""),
+    email: new FormControl(""),
+    
+  })
+
+
+  AddRestaurant(){
+
+    console.warn(this.HotelForm.value);
+
+  }
 }
