@@ -1,0 +1,4 @@
+table,tr,th,td{
+    border: solid blueviolet 4px;
+    text-align: center;
+}

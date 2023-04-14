@@ -1,0 +1,29 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "KFC Restaurant",
+      "address": "Rahuri",
+      "email":"kfc@test.com"
+    },
+    {
+      "id": 2,
+      "name": "Phule Restaurant",
+      "address": "MPKV",
+      "email":"Phule@test.com"
+    },
+    {
+      "id": 3,
+      "name": "Swagat Restaurant",
+      "address": "Loni",
+      "email":"swagat@test.com"
+    },
+    {
+      "id": 4,
+      "name": "Sandeep Restaurant",
+      "address": "Pune",
+      "email":"sandeep@test.com"
+    }
+  ]
+  
+}

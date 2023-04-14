@@ -1,1 +1,49 @@
-<h1 style="text-align:center">Restaurant App</h1>
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: lightsalmon">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> Phule Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" routerLink="add">Add</a>
+          <a class="nav-link"  routerLink="update">Update</a>
+          <a class="nav-link" routerLink="login">Login</a>
+          <a class="nav-link" routerLink="register" >Register</a>
+          <a class="nav-link" routerLink="list" >List of Restaurant</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+<!-- 
+
+
+<h1 style="text-align:center"> Phule Restaurant </h1>
+
+<div class="container" style="margin:auto;">
+    <ul>
+        <li><a routerLink="add">Add Restaurant</a></li>
+        <li><a routerLink="update">Update Restaurant</a></li>
+        <li><a routerLink="login">Login Restaurant</a></li>
+        <li><a routerLink="register">Register Restaurant</a></li>
+        <li><a routerLink="list">List Restaurant</a></li>
+    
+    
+    
+    
+    </ul>
+    
+</div> -->
+
+
+<div class="container"><router-outlet></router-outlet></div>
+
+
