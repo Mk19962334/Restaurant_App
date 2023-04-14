@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { RestoService } from '../resto.service';
 
 @Component({
   selector: 'app-add',
@@ -8,7 +9,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class AddComponent {
 
-  constructor(){
+  constructor(private resto:RestoService){
 
     
   }
@@ -25,6 +26,9 @@ export class AddComponent {
   AddRestaurant(){
 
     console.warn(this.HotelForm.value);
+    this.resto.AddData(this.HotelForm.value).subscribe((res)=>{
+      console.log(res)
+    })
 
   }
 }

@@ -15,6 +15,10 @@ export class RestoService {
 
   }
 
+  AddData(data:any){
+    return this.http.post(this.url,data)
+  }
+
 
 
 }
