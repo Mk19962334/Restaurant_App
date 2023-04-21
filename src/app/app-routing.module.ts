@@ -9,7 +9,7 @@ import { ListRestoComponent } from './list-resto/list-resto.component';
 const routes: Routes = [
 
   {path:'add',component:AddComponent},
-  {path:'update',component:UpdateComponent},
+  {path:'update/:id',component:UpdateComponent},
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
   {path:'list',component:ListRestoComponent},
