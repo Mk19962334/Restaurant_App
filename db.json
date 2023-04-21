@@ -35,6 +35,18 @@
       "address": "Sadashiv peth",
       "email": "Sainath@test.com",
       "id": 6
+    },
+    {
+      "name": "",
+      "address": "",
+      "email": "",
+      "id": 7
+    },
+    {
+      "name": "Kinara",
+      "address": "Rahuri College",
+      "email": "Kinara@gmail.com",
+      "id": 8
     }
   ]
 }

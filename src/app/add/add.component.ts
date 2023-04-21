@@ -9,6 +9,8 @@ import { RestoService } from '../resto.service';
 })
 export class AddComponent {
 
+  alert :boolean=false;
+
   constructor(private resto:RestoService){
 
     
@@ -28,6 +30,7 @@ export class AddComponent {
     console.warn(this.HotelForm.value);
     this.resto.AddData(this.HotelForm.value).subscribe((res)=>{
       console.log(res)
+      this.alert=true;
     })
 
   }
