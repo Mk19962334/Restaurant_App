@@ -22,6 +22,9 @@ export class RestoService {
   DeleteData(id:any){
     return this.http.delete(`${this.url}/${id}`)
   }
+  GetCurrentResto(id:any){
+    return this.http.get(`${this.url}/${id}`);
+  }
 
 
 
